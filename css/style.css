@@ -25,3 +25,9 @@ body {
     font-size: 38px;
     font-weight: bold;
 }
+
+.btn{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}

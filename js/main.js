@@ -7,6 +7,13 @@ const board = [
 let turn = 0; //0 user, 1 = pc
 const boardElement = document.querySelector("#board");
 const playerDiv = document.querySelector("#player");
+const btnVolverAJugar = document.querySelector('#boton') 
+
+btnVolverAJugar.addEventListener("click", () => recargar());
+
+function recargar(){
+    location.reload()
+}
 
 function renderBoard() {
     const html = board.map((row) => {
