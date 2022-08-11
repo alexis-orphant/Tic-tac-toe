@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#player{
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    font-size: 38px;
+    font-weight: bold;
+}
